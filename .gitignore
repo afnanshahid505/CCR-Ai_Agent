@@ -40,8 +40,8 @@ data/raw_titles/
 *.temp
 
 # Vector databases (generated later)
-vector_db/
-faiss_index/
+
+
 chroma_db/
 
 # Model cache
