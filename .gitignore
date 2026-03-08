@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Cookies / browser sessions
+browser_session/
+
+# Crawled raw HTML (too large)
+data/raw_sections/
+data/raw_hierarchy/
+data/raw_titles/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Vector databases (generated later)
+vector_db/
+faiss_index/
+chroma_db/
+
+# Model cache
+.cache/
